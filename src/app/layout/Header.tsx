@@ -7,7 +7,6 @@ export default function Header() {
   
 <div className='sticky -top-1 via-zinc-50'>
 
-<Wrapper>
 
 
       <div className='flex justify-around py-9     drop-shadow-xl  items-center  bg-white' >
@@ -29,7 +28,6 @@ export default function Header() {
 
 
 
-      </Wrapper>
       </div>
 
   </> 

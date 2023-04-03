@@ -12,19 +12,19 @@ export default function About() {
       <div className='mt-28'>
 
 
-        <div className=' flex shadow-xl border-2 bg-blue-50 rounded-lg h-[35rem] min-w-[50rem]  mx-32 items-center justify-center '  >
+        <div className=' flex shadow-xl border-2 bg-blue-50  h-[32rem] min-w-[50rem]  mx-28 items-center justify-center '  >
 
           {/* FOR LEFT BOX */}
           <div className='w-1/2'>
-            <Image src={men2} width='500' height={'500'} alt='logo' />
+            <Image src={men2} width='450' height={'450'} alt='logo' />
 
 
           </div>
           {/* FOR LEFT BOX */}
 
           <div className='w-1/2 text-left font-normal ' >
-            <h1 className='text-4xl mb-7 '>About me</h1>
-            <text className=' '>
+            <h1 className='text-3xl mb-3 font-medium'>About me</h1>
+            <text className='text-base '>
               As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.</text>
             <br />
             <div className='mt-10 flex gap-6 flex-wrap' >

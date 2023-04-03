@@ -4,6 +4,9 @@ import Hero from './Widgets/Hero'
 import Skill from './Widgets/Skill'
 import Projects from './Widgets/Projects'
 import Header from './layout/Header'
+import Pricing from './Widgets/Pricing'
+import Contact from './Widgets/Contact'
+import Footer from './layout/Footer'
 
 export default function page() {
   return <>
@@ -12,7 +15,9 @@ export default function page() {
     <About  />
     <Skill />
    <Projects />  
-
+   <Pricing />
+<Contact />
+<Footer />
   </>
 
 }
