@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../Shared/Wrapper'
 import Image from 'next/image'
-import maps from '../Assets/maps.png'
+import maps from '../../../public/maps.png'
 export default function () {
   return <>
 
