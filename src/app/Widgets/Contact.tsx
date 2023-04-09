@@ -4,9 +4,9 @@ import Image from 'next/image'
 import maps from '../../../public/Map.png'
 export default function () {
   return <>
+<section className='mt-32'>
 
-    <div className='mt-16 w-[1010px] mx-auto mb-20'>
-
+<Wrapper>
     <h1 className='text-center font-medium text-3xl'>Contact me</h1>
     <div className='flex justify-evenly'>
     <div className='flex   justify-start '>
@@ -52,8 +52,8 @@ Submit
     </div>
       
      
-    </div>
-  
+    </Wrapper>  
+    </section>
   
   </>
 }

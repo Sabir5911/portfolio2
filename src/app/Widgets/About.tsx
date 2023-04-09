@@ -7,27 +7,28 @@ import { data3 } from './Data/Data'
 export default function About() {
   return <>
 
+<section>
     <Wrapper>
 
-      <div className='mt-28'>
+      <div className='mt-32'  id='section'>
 
 
-        <div className=' flex shadow-xl border-2 bg-blue-50  h-[32rem] min-w-[50rem]  mx-28 items-center justify-center '  >
+        <div className=' flex  border-2 bg-blue-50    items-center justify-between rounded-md'  >
 
           {/* FOR LEFT BOX */}
-          <div className='w-1/2'>
-            <Image src={men2} width='450' height={'450'} alt='logo' />
-
+          <div className='flex-1'>
+            <Image src={men2} width='500' height={'500'} alt='logo' />
 
           </div>
-          {/* FOR LEFT BOX */}
 
-          <div className='w-1/2 text-left font-normal ' >
+          {/* FOR right BOX */}
+
+          <div className='flex-1  font-normal ' >
             <h1 className='text-3xl mb-3 font-medium'>About me</h1>
-            <text className='text-base '>
+            <text className='text-base  '>
               As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.</text>
             <br />
-            <div className='mt-10 flex gap-6 flex-wrap' >
+            <div className='mt-6 flex gap-6 flex-wrap text-sm' >
 
               {
                 data3.map((elm, id) => (
@@ -44,7 +45,7 @@ export default function About() {
       </div>
 
     </Wrapper>
-
+    </section>
 
 
 

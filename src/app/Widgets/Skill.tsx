@@ -5,10 +5,11 @@ import Image from "next/image";
 export default function Skill() {
 
    return <>
+   <section>
+
       <Wrapper>
 
-         <div className="mt-28 justify-around flex" >
-
+         <div className="mt-28 justify-between flex" >
 
             {/* for left box */}
             <div >
@@ -23,7 +24,6 @@ export default function Skill() {
                            <text>{elm.Text} </text>
 
                            <text className='float-right'>{elm.width}</text>
-
 
 
                            <div className="my-2  h-2 rounded-full bg-slate-400  w-96">
@@ -42,7 +42,7 @@ export default function Skill() {
 
             {/* for right box */}
             <div >
-               <h1 className="text-3xl font-bold">Technical Skills</h1>
+               <h1 className="text-3xl font-bold"> Professional Skills</h1>
 
                <div className="flex  flex-col gap-3 mt-9 font-medium text-lg">
 
@@ -57,7 +57,9 @@ export default function Skill() {
 
 
                            <div className="my-2  h-2 rounded-full bg-slate-400  w-96">
-                              <div className="h-2 bg-purple-500 rounded-full " style={{ width: elm.width }}></div></div>
+                              <div className="h-2 bg-purple-500 rounded-full " style={{ width: elm.width }}>
+                                 </div>
+                                 </div>
 
                         </div>
 
@@ -79,6 +81,7 @@ export default function Skill() {
 
 
       </Wrapper>
+      </section>
 
    </>
 
