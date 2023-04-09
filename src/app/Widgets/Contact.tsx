@@ -4,7 +4,7 @@ import Image from 'next/image'
 import maps from '../../../public/Map.png'
 export default function () {
   return <>
-<section className='mt-32'>
+<section className='mt-32' id='contect'>
 
 <Wrapper>
     <h1 className='text-center font-medium text-3xl'>Contact me</h1>

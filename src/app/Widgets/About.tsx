@@ -10,7 +10,7 @@ export default function About() {
 <section>
     <Wrapper>
 
-      <div className='mt-32'  id='section'>
+      <div className='mt-32 '  id='section' >
 
 
         <div className=' flex  border-2 bg-blue-50    items-center justify-between rounded-md'  >

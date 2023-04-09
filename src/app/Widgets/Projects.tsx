@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Projects() {
   return <>
-    <section>
+    <section id='projects'>
 
     </section>
     <div className='mt-32'>

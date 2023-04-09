@@ -4,6 +4,8 @@ import { data } from './Data/Data2'
 
 export default function Pricing() {
   return <>
+  <section id='pricing'>
+
     <Wrapper>
       <div className='mt-32'>
 
@@ -36,5 +38,7 @@ export default function Pricing() {
 
       </div>
     </Wrapper>
+    </section>
+
   </>
 }

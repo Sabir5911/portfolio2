@@ -15,18 +15,18 @@ export default function Header() {
         </div>
         <ul className='flex space-x-10 text-xl  font-medium'>
 
-          <Link href='#Home'>Home</Link>
-          <a  href='#section'>About</a>
-           <li>Pricing</li>
-          <li>Contect </li> 
-          <li>Portfolio</li>
+          < a href='#Home' >Home</a>
+          <a  href='#section' >About</a>
+           <a href='#pricing'>Pricing</a>
+          <a href={'#contect'}>Contect </a> 
+          <a href='#projects'>Portfolio</a>
 
         </ul>
 
        
       </div>
 
-<hr />
+<hr  className='border-2 my-2'/>
 </Wrapper>
 
       </div>
